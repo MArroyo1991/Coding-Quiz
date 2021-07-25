@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+  <title>Coding Knowledge Test</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+  <nav class="testResults">Score:</nav>
+  <div class="header">
+    <h1>Coding Knowledge Test</h1>
+    <h2 id="timer"></h2>
+  </div>
+  <div class="intro">
+    <p id="introText">
+      <br>
+       Welcome! 
+      <br>
+      This test is timed and will be scoring you on how quickly you can answer the questions about coding correctly. You will have 2 minutes to answer as many questions as possible but be careful! Every incorrect answer will deduct your time by 10 seconds. 
+      <br> Good Luck!
+    </p>
+    <button id="start"> Begin! </button>
+  </div>
+  <div  class="questionSection">
+    <p id="questions"></p>
+    <ul id="answers"></ul>
+    <p id="answerStatus"></p>
+  </div>
+  <script src="./assets/script.js"></script>
+  </body>
+</html>

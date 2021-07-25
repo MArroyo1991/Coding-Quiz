@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body {
+    margin: 2%;
+    padding: 2%;
+    background-color: hsl(0, 8%, 79%);;
+    justify-content: center;
+
+}
+.header {
+    background-color: hsl(0, 8%, 79%);
+    text-align: center;
+    padding: 3%;
+    font-size: 50px;
+}
+h1 {
+    margin: 10px;
+    color:rgb(85, 83, 83)
+}
+.intro {
+    background-color: ivory;
+    color:rgb(85, 83, 83) ;
+    border-radius: 50px;
+}
+
+#introText {
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    margin: 10px 20px 50px 720px;
+    padding: 4%;
+    display: flex;
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: ivory;
+    font-size: 50px;
+    
+    
+}
+
+button:hover {
+    background-color: aquamarine;
+    
+
+}
